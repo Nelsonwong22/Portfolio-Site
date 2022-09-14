@@ -1,0 +1,136 @@
+@media only screen and (max-width: 820px) {
+  #navItems {
+    display: none;
+  }
+
+  #messageContainer {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  #messageForm {
+    width: 100%;
+    padding: 20px 20px;
+  }
+}
+
+@media only screen and (min-width: 821px) {
+  #messageContainer {
+    width: 50%;
+    padding: 20px 20px;
+  }
+  #messageForm {
+    width: 50%;
+    padding: 20px 20px;
+  }
+}
+
+Body {
+  margin: 0px;
+  font-family: "Playfair Display";
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#informationContainer {
+  flex: 1;
+  margin: 0px 20px;
+  width: 100vw;
+}
+
+.Section {
+  box-sizing: border-box;
+  color: black;
+  height: 100%;
+  width: 100%;
+  font-size: 24px;
+  border: 1px solid white;
+  padding: 20px 20px;
+  flex-basis: content;
+  display: flex;
+}
+
+#NavBar {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 90vw;
+  justify-content: space-between;
+  font-size: 22px;
+  padding: 30px 50px;
+}
+
+#currentYear {
+  color: white;
+}
+
+#footer {
+  height: 100px;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.skillCard {
+  display: inline-block;
+  border: 5px solid black;
+  border-radius: 3px;
+  padding: 8px;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.messageFormRow {
+  gap: 12px;
+}
+
+.messageForm {
+  width: 50%;
+  padding: 20px 20px;
+}
+
+.submitButton {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background: black;
+  text-align: center;
+  min-width: 100px;
+}
+
+.messageRow {
+  padding: 10px 10px;
+  background: #f7f5f9;
+}
+
+.messageAuthor {
+  font-size: 0.75em;
+}
+
+.messageBtn {
+  width: 30px;
+}
+
+.mailTo {
+  text-decoration: none;
+}
+
+#messages {
+  overflow-y: scroll;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}

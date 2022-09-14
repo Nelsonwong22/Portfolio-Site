@@ -1,0 +1,81 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  background: black;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spaceAround {
+  display: flex;
+  justify-content: space-around;
+}
+
+.front {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navLink {
+  text-decoration: none;
+  color: black;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+#githubProjects {
+  list-style-type: none;
+}
+
+#githubProjects > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.flexWrap {
+  display: flex;
+  flex-flow: row wrap;
+}
